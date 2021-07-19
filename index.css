@@ -1,0 +1,58 @@
+body {
+    background-image: url("station.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow:0px 5px #666;
+  transform: translateY(4px);
+}
+
+#increment-btn {
+    background: blue;
+}
+#increment-btn:hover {
+    background: skyblue;
+}
+
+#decrement-btn {
+    background: darkred;
+}
+#decrement-btn:hover {
+    background: indianred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+#save-btn:hover {
+    background: seagreen;
+}
